@@ -1,31 +1,15 @@
 import MyFoto from '../assets/MinhaFoto.jpeg';
-import './Home.css'
 import { FaGithub, FaLinkedin, FaFileWord, FaArrowLeft } from "react-icons/fa";
+import './Home.css'
+import Projects from './Projects';
+import './Projects.css'
 
 
 const Home = () => {
 
   
 
-  const navbar = () => {
-
-    var PresentationDiv = document.getElementById('Presentation');
-    var Image = document.getElementById('MyImg');
-    var ProjectsDiv = document.getElementById('Projects');
-    var BackButton = document.getElementById('BackFull');
-
-    if (!PresentationDiv.classList.contains('sidebar')) {
-      PresentationDiv.classList.add('sidebar');
-      PresentationDiv.classList.remove('presentation');
-      Image.classList.add('myImgSidebar');
-      Image.classList.remove('myImg');
-      ProjectsDiv.classList.add('projectFull');
-      ProjectsDiv.classList.remove('projectsHome');
-      BackButton.style.display = 'block';
-    }
-
-    console.log(PresentationDiv.classList)
-  }
+  
 
   const BackHome = () => {
 
@@ -33,6 +17,7 @@ const Home = () => {
     var Image = document.getElementById('MyImg');
     var ProjectsDiv = document.getElementById('Projects');
     var BackButton = document.getElementById('BackFull');
+    var Projects = document.getElementById('ConteinerProjects');
 
     if (PresentationDiv.classList.contains('sidebar')) {
       PresentationDiv.classList.remove('sidebar');
@@ -42,6 +27,7 @@ const Home = () => {
       ProjectsDiv.classList.remove('projectFull');
       ProjectsDiv.classList.add('projectsHome');
       BackButton.style.display = 'none';
+      Projects.style.display = 'none';
     }
   }
 
@@ -64,9 +50,7 @@ const Home = () => {
         </ul>
       </div>
 
-      <div id='Projects' className='projectsHome' onClick={navbar}>
-        <h1>Projetos</h1>
-      </div>
+      <Projects />
     </div>
   )
 }

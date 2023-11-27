@@ -78,7 +78,7 @@
     border: none;
     color: white;
     font-size: 2rem;
-
+    cursor: pointer;
 }
 
 
@@ -123,10 +123,6 @@
 
 }
 
-.contact li:hover{
-    background-color: #9d4edd;
-    transition: 0.5s;
-}
 
 .contact li a{
     color: white;
@@ -134,52 +130,19 @@
     font-size: 2rem;
 }
 
-
-
-.projectsHome{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    transition: width 1s;
-}
-
-
-
-.projectsHome h1{
-    color: black;
-    font-size: 4rem; 
-    text-align: center; 
-}
-
-
-.projectFull{
-    display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: 95%;
-     transition: width 1s;
- }
- 
- .projectFull h1{
-     color: black;
-     font-size: 4rem; 
-     text-align: center; 
- }
-
-
-
- @media (min-width: 650px) {
+ @media (min-width: 700px) {
     .projectsHome:hover{
         width: 60%;
     }
     .presentation:hover{
         width: 60%;
     }
+    .contact li:hover{
+        background-color: #9d4edd;
+        transition: 0.5s;
+    }
   }
-  @media  (max-width:650px) {
+  @media  (max-width:700px) {
     .name{
         margin: auto 0;
     }
@@ -214,6 +177,6 @@
     }
 
     .projectsHome h1{
-        font-size: 3rem; 
+        font-size: 2.8rem; 
     }
   }
