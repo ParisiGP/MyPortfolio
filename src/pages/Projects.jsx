@@ -42,7 +42,7 @@ const Projects = () => {
               <img src= {TodoUrl} alt="Foto não encontrada" />
             </div>
             <p className='projectDiscription'>Formulario To Do, feito em React+Vite</p>
-              <a href="https://parisigp.github.io/todo_react_vite/" target="_blank" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
+              <a href="https://parisigp.github.io/todo_react_vite/"  rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
               
           </div>
 
@@ -53,7 +53,7 @@ const Projects = () => {
               <img src= {CalculatorUrl} alt="Foto não encontrada" />
             </div>
             <p className='projectDiscription'>Calculadora feita em HTML, CSS e Javascript</p>
-              <a href="https://parisigp.github.io/Calculadora/" target="_blank" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
+              <a href="https://parisigp.github.io/Calculadora/" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
               
           </div>
 
@@ -63,7 +63,7 @@ const Projects = () => {
               <img src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ61InrGnOfllPof8bBSz_qHBcD2ZeGW3fqCcEX7Q&s' alt="Foto não encontrada" />
             </div>
             <p className='projectDiscription'>Descrição do Projeto</p>
-              <a href="https://parisigp.github.io/todo_react_vite/" target="_blank" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
+              <a href="https://parisigp.github.io/todo_react_vite/" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
           </div>
 
         
