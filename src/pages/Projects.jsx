@@ -1,6 +1,7 @@
 import TodoUrl from '../assets/TodoPRJ.png';
 import CalculatorUrl from '../assets/CalculatorPRJ.png';
 import MovieURL from '../assets/MoviePRJ.png';
+import CEPURL from '../assets/CEPPRJ.png';
 
 const navbar = () => {
 
@@ -62,6 +63,15 @@ const Projects = () => {
             </div>
             <p className='projectDiscription'>Catalogo de filmes com barra de pesquisa por API </p>
               <a target='_blank' href="https://parisigp.github.io/PRJ_CatalogoFilmes/" rel="noopener noreferrer"><button className='btSeeMore'>Visitar projeto</button></a>
+          </div>
+
+          <div className="projectCard">
+            <h3 className="ProjectName">Projeto</h3>
+            <div className="projectImage">
+              <img src= {CEPURL} alt="Foto não encontrada" />
+            </div>
+            <p className='projectDiscription'> Buscador de CEP em React Puro com conexão de API </p>
+              <a href="https://parisigp.github.io/zipCep/" rel="noopener noreferrer"><button className='btSeeMore'>Visitar projeto</button></a>
           </div>
 
         </div>
