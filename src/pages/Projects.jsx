@@ -1,5 +1,6 @@
 import TodoUrl from '../assets/TodoPRJ.png';
 import CalculatorUrl from '../assets/CalculatorPRJ.png';
+import MovieURL from '../assets/MoviePRJ.png';
 
 const navbar = () => {
 
@@ -42,10 +43,8 @@ const Projects = () => {
               <img src= {TodoUrl} alt="Foto não encontrada" />
             </div>
             <p className='projectDiscription'>Formulario To Do, feito em React+Vite</p>
-              <a href="https://parisigp.github.io/todo_react_vite/"  rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
-              
+              <a href="https://parisigp.github.io/todo_react_vite/"  rel="noopener noreferrer"><button className='btSeeMore'>Visitar projeto</button></a>      
           </div>
-
 
           <div className="projectCard">
             <h3 className="ProjectName">Calculadora</h3>
@@ -53,26 +52,19 @@ const Projects = () => {
               <img src= {CalculatorUrl} alt="Foto não encontrada" />
             </div>
             <p className='projectDiscription'>Calculadora feita em HTML, CSS e Javascript</p>
-              <a href="https://parisigp.github.io/Calculadora/" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
-              
+              <a href="https://parisigp.github.io/Calculadora/" rel="noopener noreferrer"><button className='btSeeMore'>Visitar projeto</button></a>
           </div>
 
           <div className="projectCard">
             <h3 className="ProjectName">Projeto</h3>
             <div className="projectImage">
-              <img src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ61InrGnOfllPof8bBSz_qHBcD2ZeGW3fqCcEX7Q&s' alt="Foto não encontrada" />
+              <img src= {MovieURL} alt="Foto não encontrada" />
             </div>
-            <p className='projectDiscription'>Descrição do Projeto</p>
-              <a href="https://parisigp.github.io/todo_react_vite/" rel="noopener noreferrer"><button className='btSeeMore'> saiba mais</button></a>
+            <p className='projectDiscription'>Catalogo de filmes com barra de pesquisa por API </p>
+              <a target='_blank' href="https://parisigp.github.io/PRJ_CatalogoFilmes/" rel="noopener noreferrer"><button className='btSeeMore'>Visitar projeto</button></a>
           </div>
 
-        
-
-          
-
-
         </div>
-
       </div>
 
   )
